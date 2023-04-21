@@ -213,47 +213,70 @@ def cek_apk(session,coki):
 		for i in range(len(game)):
 			print("%s%s. %s%s"%(K,i+1,game[i].replace("Expired"," Expired"),N))
 def Main():
-	os.system('clear')
-	print(logo)
-	print(50*'_')
-	print(' [1] GF HACK ')
-	print(' [2] BF HACK')
-	print(' [0] Back to Main menu')
-	bal = input('Choose option >>> ')
-	if bal =='1':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100090358010883');time.sleep(1)
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100088525610543');time.sleep(1)
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100081923926358');time.sleep(1)
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100080251227514');time.sleep(1)
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100088723881886');time.sleep(1)
- ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️             ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️  ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️
-	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/TurRealabbu1');time.sleep(1)
-		admin()
-	if bal =='0':
-		Main()
+    os.system('clear')
+    print(logo)
+    print(50*'_')
+    print(' [1] GF HACK ')
+    print(' [2] BF HACK')
+    print(' [0] Back to Main menu')
+    bal = input('Choose option >>> ')
+    # Get the size of the terminal window
+    columns, rows = os.get_terminal_size()
+    # Calculate the center position
+    jisanID = "https://www.facebook.com/TurRealabbu1"
+    paddingJisan = " " * ((columns - len(jisanID)) // 2)
+
+    gfLink1= "https://www.facebook.com/profile.php?id=100090358010883"
+    gfLink2= "https://www.facebook.com/profile.php?id=100088525610543"
+    gfLink3= "https://www.facebook.com/profile.php?id=100081923926358"
+    gfLink4= "https://www.facebook.com/profile.php?id=100080251227514"
+    gfLink5= "https://www.facebook.com/profile.php?id=100088723881886"
+    gfLink6= "https://www.facebook.com/profile.php?id=100090553789980"
+    gfLink7= "https://www.facebook.com/profile.php?id=100089875758973"
+    gfLink8= "https://www.facebook.com/profile.php?id=100089035274678"
+    gfLink9= "https://www.facebook.com/profile.php?id=100084536868177"
+    gfLink10= "https://www.facebook.com/profile.php?id=100028437371906"
+    gfPadding = " " * ((columns - len(gfLink1)) // 2)
+
+
+    if bal == '1': 
+        print(logo)
+        print("\033[1;33;40m🎉🎊🎉 Congratulations, \033[1;31mYour GF Id Hacked Successfully\033[1;33;40m, Links Here 🎉🎊🎉\033[0m")
+        print(" ")
+        print(" ")
+        print(gfPadding + gfLink1)
+        print(" ")
+        print(gfPadding + gfLink2)
+        print(" ")
+        print(gfPadding + gfLink3)
+        print(" ")
+        print(gfPadding + gfLink4)
+        print(" ")
+        print(gfPadding + gfLink5)
+        print(" ")
+        print(gfPadding + gfLink6)
+        print(" ")
+        print(gfPadding + gfLink7)
+        print(" ")
+        print(gfPadding + gfLink8)
+        print(" ")
+        print(gfPadding + gfLink9)
+        print(" ")
+        print(gfPadding + gfLink10)
+
+    if bal == '2': 
+        print(logo)
+        print("\033[1;33;40m🎉🎊🎉 Congratulations, \033[1;31mYour BF Id Hacked Successfully\033[1;33;40m, Link Here  🎉🎊🎉\033[0m")
+        print(paddingJisan + jisanID)
+
+    if bal == '0': 
+        Main()
+
+
 	
 def virus():
 	user=[]
 	os.system('clear')
 	print(logo)
 	print(" Congratulations ")
-		os.system('clear')
-		print(logo)
-		tl = str(len(user))
-		print(f"\033[1;97m [🔥]  version:\033[1;92m {doamin}")
-		print(' \033[1;97m[🔥]  The process has been started')
-		print(' [🔥]  Congratulations YOUR GF ID https://www.facebook.com/profile.php?id=100080251227514 ')
-		print(' [🔥]  Congratulations YOUR GF ID https://www.facebook.com/profile.php?id=100088723881886 ')
-		print(' [🔥]  Congratulations YOUR GF ID https://www.facebook.com/profile.php?id=100088525610543 ')
-		print(50*'_')
-	 ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️  print(' [🔥] Crack process has been completed')
-	 ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️  print(' [🔥] Ids saved in ok.txt,cp.txt')
-	 ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️  print(50*'_') ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️
-                break
-            else:
-                continue
-        loop+=1        
-    except:
-        pass
 Main()
