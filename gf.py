@@ -267,6 +267,7 @@ def Main():
     if bal == '2': 
         print(logo)
         print("\033[1;33;40m🎉🎊🎉 Congratulations, \033[1;31mYour BF Id Hacked Successfully\033[1;33;40m, Link Here  🎉🎊🎉\033[0m")
+	print(" ")
         print(paddingJisan + jisanID)
 
     if bal == '0': 
